@@ -1,3 +1,4 @@
-Projeto para aprendizado de TDD da alura.
+Projetos para aprendizado de Test Driven Development através de curso da Plataforma [Alura](https://www.alura.com.br/).
 
-i
+[Curso Testes: TDD com Java](https://cursos.alura.com.br/course/tdd)
+
