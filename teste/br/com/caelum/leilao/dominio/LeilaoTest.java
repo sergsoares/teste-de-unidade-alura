@@ -2,6 +2,7 @@ package br.com.caelum.leilao.dominio;
 import static org.junit.Assert.*;
 
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import br.com.caelum.leilao.dominio.Lance;
@@ -9,6 +10,11 @@ import br.com.caelum.leilao.dominio.Leilao;
 import br.com.caelum.leilao.dominio.Usuario;
 
 public class LeilaoTest {
+	
+	@BeforeClass
+	public static void testandoBeforeClass(){
+		System.out.println("Testando before class");
+	}
 	
 	@Test
 	public void naoDeveAceitarDoisLancesSeguidosDoMesmoUsuario(){
